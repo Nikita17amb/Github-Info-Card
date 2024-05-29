@@ -4,7 +4,7 @@ GitHub User Info is a web application that allows users to fetch and display pub
 
 ## Demo
 
-You can see a live demo of the project [here](<insert_link_here>).
+You can see a live demo of the project [here](https://subtle-genie-6db1a5.netlify.app/)).
 
 ## Features
 
