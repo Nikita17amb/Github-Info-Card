@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub User Info</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>GitHub User Info</h1>
+        <form id="githubForm">
+            <input type="text" id="usernameInput" placeholder="Enter GitHub Username or Test Username (e.g., Nikita17amb)">
+            <button type="submit">Get Info</button>
+        </form>
+        <div id="userInfoCard" class="hidden">
+            <div class="card">
+                <img id="avatarImage" src="" alt="Avatar">
+                <div class="info">
+                    <h2 id="userName"></h2>
+                    <p id="userLogin"></p>
+                    <p id="publicRepos"></p>
+                    <p id="publicGists"></p>
+                    <p id="createdAt"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
